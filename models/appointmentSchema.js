@@ -27,8 +27,8 @@ const appointmentSchema = new mongoose.Schema({
     AdharNumber: {
         type: String,
         required: [true, "Adhar Number Is Required!"],
-        minLength: [12, "NIC Must Contain Only 12 Digits!"],
-        maxLength: [12, "NIC Must Contain Only 12 Digits!"],
+        minLength: [12, "Adhar Number Must Contain Only 12 Digits!"],
+        maxLength: [12, "Adhar Number Must Contain Only 12 Digits!"],
     },
     dob: {
         type: String,
